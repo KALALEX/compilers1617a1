@@ -1,4 +1,4 @@
-import time
+
 import sys
 import re
 import argparse
@@ -55,6 +55,6 @@ with open(args.fname,newline='') as ifp:
 
 		sys.stdout.write(line)
 		sys.stdout.flush()
-		
+
 		# -- αντικαταστήστε με τον δικό σας κώδικα (τέλος) --
 
